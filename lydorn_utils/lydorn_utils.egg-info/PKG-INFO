@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: lydorn-utils
+Version: 0.0.1
+Summary: Various utilities for deep learning projects
+Home-page: UNKNOWN
+Author: Nicolas Girard
+Author-email: nicolas.jp.girard@gmail.com
+License: INRIA
+Description: # lydorn_utils
+        Various utilities for deep learning projects.
+        
+        ## print_utils
+        
+        Print in color: warning, error, info, etc. messages.
+        
+        ## python_utils
+        
+        Some path utilities and more...
+        
+        ## run_utils
+        
+        Manage training runs.
+        
+        
+Platform: UNKNOWN
+Classifier: License :: INRIA
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

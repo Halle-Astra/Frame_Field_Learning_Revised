@@ -1,0 +1,6 @@
+README.md
+setup.py
+frame_field_learning.egg-info/PKG-INFO
+frame_field_learning.egg-info/SOURCES.txt
+frame_field_learning.egg-info/dependency_links.txt
+frame_field_learning.egg-info/top_level.txt

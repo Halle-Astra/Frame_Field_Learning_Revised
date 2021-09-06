@@ -1,0 +1,46 @@
+/root/Polygonization-by-Frame-Field-Learning/frame_field_learning/runs
+mapping_dataset.unet16
+FILE:run_utils.py, var inspecting, config_load:configs/config.defaults.mapping_dataset.json
+[94mINFO: Loading defaults from configs/config.defaults.mapping_dataset.json[0m
+FILE:run_utils.py, var inspecting, config_load:configs/config.defaults.json
+[94m	INFO: Loading defaults from configs/config.defaults.json[0m
+FILE:run_utils.py, var inspecting, config_load:configs/loss_params.json
+[94m			INFO: Loading defaults from configs/loss_params.json[0m
+FILE:run_utils.py, var inspecting, config_load:configs/optim_params.json
+[94m			INFO: Loading defaults from configs/optim_params.json[0m
+FILE:run_utils.py, var inspecting, config_load:configs/polygonize_params.json
+[94m			INFO: Loading defaults from configs/polygonize_params.json[0m
+FILE:run_utils.py, var inspecting, config_load:configs/dataset_params.mapping_dataset.json
+[94m		INFO: Loading defaults from configs/dataset_params.mapping_dataset.json[0m
+FILE:run_utils.py, var inspecting, config_load:configs/eval_params.mapping_dataset.json
+[94m		INFO: Loading defaults from configs/eval_params.mapping_dataset.json[0m
+FILE:run_utils.py, var inspecting, config_load:configs/eval_params.defaults.json
+[94m			INFO: Loading defaults from configs/eval_params.defaults.json[0m
+FILE:run_utils.py, var inspecting, config_load:configs/backbone_params.unet16.json
+[94m	INFO: Loading defaults from configs/backbone_params.unet16.json[0m
+FILE:main.py, var inspecting
+	config['eval_params']:{'save_individual_outputs': {'seg': False, 'poly_viz': False, 'image': False, 'seg_gt': False, 'seg_mask': False, 'seg_opencities_mask': False, 'seg_luxcarta': False, 'crossfield': False, 'uv_angles': False, 'poly_shapefile': False, 'poly_geojson': False}, 'save_aggregated_outputs': {'stats': False, 'seg_coco': True, 'poly_coco': True}, 'results_dirname': 'eval_runs', 'test_time_augmentation': False, 'batch_size_mult': 64, 'patch_size': None, 'patch_overlap': 200, 'seg_threshold': 0.5}
+[94mGPU 0 -> Using data from /data/sda/datasets/Datasets4FFL/mapping_challenge_dataset[0m
+FILE:/root/Polygonization-by-Frame-Field-Learning/pytorch_lydorn/torch_lydorn/torchvision/datasets/mapping_challenge.py
+	Info, Class MappingChallenge is initializing.
+FILE:/root/Polygonization-by-Frame-Field-Learning/pytorch_lydorn/torch_lydorn/torchvision/datasets/mapping_challenge.py
+	Info, MappingChallenge has been loaded.
+FILE:/root/Polygonization-by-Frame-Field-Learning/pytorch_lydorn/torch_lydorn/torch/utils/data/dataset.py
+	Info, Class Dataset is initializing.
+FILE:/root/Polygonization-by-Frame-Field-Learning/pytorch_lydorn/torch_lydorn/torch/utils/data/dataset.py
+	var inspecting, class keys:dict_keys(['__module__', '__init__', 'load_image_ids', 'get_coco', 'processed_dir', 'processed_file_names', '__len__', '_download', 'download', '_process', 'process', 'get', '__doc__'])
+FILE:/root/Polygonization-by-Frame-Field-Learning/pytorch_lydorn/torch_lydorn/torch/utils/data/dataset.py
+	Info, var download is in keys of class dict.
+FILE:/root/Polygonization-by-Frame-Field-Learning/pytorch_lydorn/torch_lydorn/torchvision/datasets/mapping_challenge.py
+	Info, _downlaod function will be executed but nothing will be done, actually.
+FILE:/root/Polygonization-by-Frame-Field-Learning/pytorch_lydorn/torch_lydorn/torch/utils/data/dataset.py
+	Info, Class Dataset finished initializing.
+FILE:/root/Polygonization-by-Frame-Field-Learning/pytorch_lydorn/torch_lydorn/torchvision/datasets/mapping_challenge.py
+	Info, Class MappingChallenge finished initializing.
+# --- Start evaluating --- #
+[94mSaving eval outputs to /data/sda/datasets/Datasets4FFL/mapping_challenge_dataset/eval_runs/mapping_dataset.unet16 | 2021-08-18 08:38:40[0m
+[94mLoading best val checkpoint: /root/Polygonization-by-Frame-Field-Learning/frame_field_learning/runs/mapping_dataset.unet16 | 2021-08-18 08:38:40/checkpoints/checkpoint.best_val.epoch_000067.tar[0m
+Start saving seg_coco:
+Finished in 61.02152061462402s
+Start saving poly_coco:
+Finished in 609.1564469337463s

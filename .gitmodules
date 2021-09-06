@@ -1,0 +1,8 @@
+[submodule "lydorn_utils"]
+	path = lydorn_utils
+	url = https://github.com/Lydorn/lydorn_utils.git
+	branch = master
+[submodule "pytorch_lydorn"]
+	path = pytorch_lydorn
+	url = https://github.com/Lydorn/pytorch_lydorn.git
+	branch = master

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: torch-lydorn
+Version: 0.0.1
+Summary: Various extensions to existing PyTorch libraries
+Home-page: UNKNOWN
+Author: Nicolas Girard
+Author-email: nicolas.jp.girard@gmail.com
+License: INRIA
+Description: My own extensions to several torch libraries:
+        
+        - PyTorch
+        - Torchvision
+        - PyTorch Ggeometric
+        - kornia
+        
+        And additional utils related to torch.setup.py
+Platform: UNKNOWN
+Classifier: License :: INRIA
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
